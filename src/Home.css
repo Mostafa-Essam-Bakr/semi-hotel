@@ -1,0 +1,361 @@
+.parent-img img{
+    width: 300px;
+    height: 200px;
+    outline-style: dashed;
+    box-shadow: 5px 5px 20px;
+    border-radius: 5px 5px 112px 112px;
+    z-index: 1;
+    transition: .5s;
+    animation-name: up;
+    animation-duration: 1s;
+    animation-delay: 0s;
+
+}
+.parent-img img:hover{
+    box-shadow: 5px 5px 20px white;
+}
+.navhom{position: fixed;
+    z-index: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(82, 113, 141);
+}
+
+
+@keyframes up {
+
+    from{
+opacity: 0;
+    }
+
+    to{
+opacity: 100px;
+    }
+    
+}
+
+
+
+.parent-img{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.bs{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    top: -127px;
+    margin: 8px;
+    justify-content: flex-start;
+
+    animation-name: up;
+    animation-duration: 1s;
+    animation-delay: 0s;
+
+
+}
+
+
+@keyframes up {
+
+    from{
+opacity: 0;
+    }
+
+    to{
+opacity: 100px;
+    }
+    
+}
+
+
+.heartred{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+.b1{
+    border: none;
+    background-color: #f37d23;
+    height: 70px;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #ffb000;
+    cursor: pointer;
+    font-size: larger;
+    z-index: 99;
+
+}
+.b2{
+    border: none;
+    background-color: #00719c;
+    height: 70px;
+    width: 200px;
+
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #004fff;
+    cursor: pointer;
+    font-size: larger;
+    z-index: 99;
+
+
+}
+.b1:hover{
+    box-shadow: none;
+    background-color: #eb6600;
+
+}
+.b2:hover{
+    box-shadow: none;
+    background-color:#03a4e4;
+
+}
+
+.slidimg{
+    animation-name: up;
+    animation-duration: 1s;
+
+
+
+
+}
+
+
+@keyframes up {
+
+    from{
+opacity: 0;
+    }
+
+    to{
+opacity: 100px;
+    }
+    
+
+}
+
+
+.lunch{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+.lunch i{
+    color: white;
+    font-size: x-large;
+    padding-left: 13px;
+    cursor: pointer;
+    
+    display: flex;
+    gap: 66px;
+
+
+
+}
+.lunch i:hover{
+    color: rgb(7, 223, 7);
+    box-shadow: 5px 5px 20px;
+}
+.lunch i p{
+    font-family: monospace;
+    font-size: xx-large;
+
+}
+
+.cover{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    filter: blur(3px);
+}
+.mo{
+    background-color: #507ea3;
+    border-radius: 18px;
+}
+
+ .child-img{
+    flex-direction: column;
+    align-items: center;
+    background-color: #52718d;
+}
+
+.child-img:hover{
+    background-color: #80acd3;
+}
+.book-now{
+    position: relative;
+    bottom: 219px;
+    z-index: 1;
+    right: 82px;
+    background-color: #5582ab;
+    color: white;
+    border-radius: 15px;
+    font-size: revert-layer;
+    width: 124px;
+    text-align: center;
+    font-family: emoji;
+    cursor: pointer;
+
+}
+.titel-pro{
+    position: relative;
+    left: 106px;
+    color: white;
+    bottom: 13px;
+    font-family: emoji;
+    font-size: xx-large;
+
+}
+.night{
+    position: relative;
+    left: 92px;
+    color: white;
+    bottom: 10px;
+    font-family: emoji;
+
+}
+.night span{
+    color: #ffe600;
+}
+
+#heart{
+    color: rgb(0 0 0 / 45%);
+    font-size: x-large;
+z-index: 2;
+position: relative;
+    left: 120px;
+    bottom: 191px;
+    cursor: pointer;
+}
+
+.book{
+    z-index: 2;
+}
+
+
+
+.bkslide{
+    position: absolute;
+    display: flex;
+    opacity: 0;
+    z-index: 2;
+    list-style: none;
+    background-color: #80acd3;
+    width: 132px;
+    height: 90px;
+    top: 50px;
+    gap: 5px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 13px 33px black;
+    text-align: center;
+    font-weight: 700;
+
+}
+.pbook:hover .bkslide {
+opacity: 1; 
+}
+
+.bkslide li{ position: relative;
+    right: 32px;
+    width: 132px;
+    border-bottom: solid 1px;
+   
+}
+.bkslide li:hover{
+    background: #4d6d88;
+
+}
+.bkslide a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px){
+    .bs{
+
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        height: 100px;
+        display: flex;
+        gap: 10px;
+        margin: 0;
+        top: 10px;}
+        
+        .b1 , .b2 {
+            width: 150px;
+            height: 50px;
+        }
+    
+    
+    .navhom{
+        font-size: small;
+    }
+
+    .navhom .h1 {
+
+        width: 50px;
+        position: relative;
+        top: 3px;
+    }
+  .bkslide {
+    width: 50px;
+    height: 80px;
+    }
+    .bkslide li {
+        right: 32px;
+        width: 50px;
+        border-bottom: solid 1px
+    }
+    
+}
